@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import BaseStyle from '../base/Styles';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
-    <p>Home Page</p>
+    <Fragment>
+      <BaseStyle />
+      <Header />
+    </Fragment>
   );
 };
 
