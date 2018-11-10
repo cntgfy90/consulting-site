@@ -8,14 +8,11 @@ const Navigation = () => {
         <Link href="/">
           <a>Главная</a>
         </Link>
-        <Link href="/accountant">
+        <Link href="/registration">
+          <a>Регистрация ООО / ФЛП</a>
+        </Link>
+        <Link href="/accountant-services">
           <a>Бухгалтерские услуги</a>
-        </Link>
-        <Link href="/registration-ooo">
-          <a>Регистрация ООО</a>
-        </Link>
-        <Link href="/registration-flp">
-          <a>Регистрация ФЛП</a>
         </Link>
         <Link href="/about">
           <a>О нас</a>

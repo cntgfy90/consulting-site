@@ -1,8 +1,11 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 import Navigation from './Navigation';
 
-const Header = () => {
+const Header = ({
+  bgImage,
+}) => {
   return (
     <Fragment>
       <header>
@@ -11,7 +14,7 @@ const Header = () => {
       <style jsx>{`
 
         header {
-          background: url('../static/img/img7.jpeg') no-repeat center / cover;
+          background: url(${bgImage}) no-repeat center / cover;
           height: 400px;
           width: 100%;
         }
@@ -19,6 +22,14 @@ const Header = () => {
         `}</style>
     </Fragment>
   );
+};
+
+Header.defaultProps = {
+  bgImage: '../static/img/img7.jpeg',
+};
+
+Header.propTypes = {
+  bgImage: PropTypes.string.isRequired,
 };
 
 export default Header;

@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Fragment>
       <BaseStyle />
-      <Header />
+      <Header bgImage={'../static/img/img7.jpeg'} />
     </Fragment>
   );
 };
