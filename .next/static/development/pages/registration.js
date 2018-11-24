@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\accountant-services.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\registration.js"],{
 
 /***/ "./base/Styles.js":
 /*!************************!*\
@@ -10943,10 +10943,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/accountant-services.js":
-/*!**************************************!*\
-  !*** ./pages/accountant-services.js ***!
-  \**************************************/
+/***/ "./pages/registration.js":
+/*!*******************************!*\
+  !*** ./pages/registration.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10956,12 +10956,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _base_Styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../base/Styles */ "./base/Styles.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-var _jsxFileName = "E:\\_WebDev\\consulting-site\\pages\\accountant-services.js";
+var _jsxFileName = "E:\\_WebDev\\consulting-site\\pages\\registration.js";
 
 
 
 
-var AccountantServices = function AccountantServices() {
+var Registration = function Registration() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
@@ -10975,7 +10975,7 @@ var AccountantServices = function AccountantServices() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    bgImage: '../static/img/img1.jpeg',
+    bgImage: '../static/img/img5.jpeg',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -10984,7 +10984,7 @@ var AccountantServices = function AccountantServices() {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (AccountantServices);
+/* harmony default export */ __webpack_exports__["default"] = (Registration);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -11001,21 +11001,21 @@ var AccountantServices = function AccountantServices() {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/accountant-services")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/registration")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 5:
-/*!********************************************!*\
-  !*** multi ./pages/accountant-services.js ***!
-  \********************************************/
+/***/ 7:
+/*!*************************************!*\
+  !*** multi ./pages/registration.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/accountant-services', function() {
-module.exports = __webpack_require__(/*! ./pages/accountant-services.js */"./pages/accountant-services.js");
+__NEXT_REGISTER_PAGE('/registration', function() {
+module.exports = __webpack_require__(/*! ./pages/registration.js */"./pages/registration.js");
 
 return { page: module.exports.default }});
 
@@ -11032,5 +11032,5 @@ module.exports = dll_ecba6b44147cc8018369;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=accountant-services.js.map
+},[[7,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=registration.js.map

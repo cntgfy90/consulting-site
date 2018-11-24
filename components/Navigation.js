@@ -17,6 +17,9 @@ const Navigation = () => {
         <Link href="/about">
           <a>О нас</a>
         </Link>
+        <Link href="/contact">
+          <a>Контакты</a>
+        </Link>
       </ul>
       <style jsx>{`
         ul {
