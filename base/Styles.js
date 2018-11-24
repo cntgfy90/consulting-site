@@ -15,6 +15,10 @@ export default () => {
           text-decoration: none;
         }
 
+        ul {
+          list-style: none;
+        }
+
         @font-face {
             font-family: 'Montserrat-SemiBold';
             src: url('../static/fonts/Montserrat-SemiBold.woff2') format('woff2'),
