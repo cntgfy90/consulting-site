@@ -12,16 +12,22 @@ const TitleStyled = styled.h1`
 `;
 
 const MainTitle = ({
+  className,
   children,
 }) => {
   return (
-    <TitleStyled>
+    <TitleStyled className={className}>
       {children}
     </TitleStyled>
   );
 };
 
+MainTitle.defaultProps = {
+  className: '',
+};
+
 MainTitle.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.string.isRequired,
 };
 
