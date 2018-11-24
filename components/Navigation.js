@@ -26,7 +26,7 @@ const Navigation = () => {
           position: fixed;
           top: 0; left: 0; right: 0;
           width: 100%;
-          background-color: #74d9f2;
+          background-color: rgba(255, 255, 255, 0.7);
           height: 50px;
           display: flex;
           flex-flow: row nowrap;
