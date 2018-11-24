@@ -11,15 +11,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/accountant-services": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/registration": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
