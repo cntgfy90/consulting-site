@@ -8,6 +8,7 @@ import { IntroText } from '../components/Main/Texts/IntroText';
 import { OfferText } from '../components/Main/Texts/OfferText';
 import { StartText} from '../components/Main/Texts/StartText';
 import { ContactText } from '../components/Main/Texts/ContactText';
+import ContactLink from '../components/Main/Links/ContactLink';
 
 const Home = () => {
   return (
@@ -32,7 +33,11 @@ const Home = () => {
           - Начните с Главного!
         </StartText>
         <ContactText>
-          Оставьте Вашу заявку на сайте  или звоните напрямую и получите первичную бесплатную консультацию.
+          Оставьте Вашу
+          <ContactLink href="/contact">{' заявку '}</ContactLink>
+          на сайте или
+          <ContactLink href="/contact">{' звоните '}</ContactLink>
+          напрямую и получите первичную бесплатную консультацию.
         </ContactText>
       </Content>
     </Fragment>
