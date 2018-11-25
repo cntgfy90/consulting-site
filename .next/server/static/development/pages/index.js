@@ -566,8 +566,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "E:\\_WebDev\\consulting-site\\components\\Main\\Title.js";
-
 function _templateObject() {
   var data = _taggedTemplateLiteral(["\n  font-family: 'Montserrat-Bold';\n  font-weight: bold;\n  font-size: 24px;\n  text-align: center;\n  color: #4f4f4f;\n  margin-bottom: 50px;\n"]);
 
@@ -583,28 +581,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var TitleStyled = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1(_templateObject());
-
-var MainTitle = function MainTitle(_ref) {
-  var className = _ref.className,
-      children = _ref.children;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleStyled, {
-    className: className,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, children);
-};
-
-MainTitle.defaultProps = {
-  className: ''
-};
-MainTitle.propTypes = {
-  className: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
-};
+var MainTitle = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1(_templateObject());
 /* harmony default export */ __webpack_exports__["default"] = (MainTitle);
 
 /***/ }),
